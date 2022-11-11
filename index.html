@@ -5,21 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
         <a href="index.html"><img src="./images/logo.svg" alt="logo" /></a>
-        <ul>
-          <li><a href="#">About us </a></li>
-          <li><a href="#">Services and prices</a></li>
-          <li><a href="#">Stuffers</a></li>
-          <li><a href="#">Contacts</a></li>
+        <ul class="site-nav">
+          <li class="site-nav-item"><a href="#">About us </a></li>
+          <li class="site-nav-item"><a href="#">Services and prices</a></li>
+          <li class="site-nav-item"><a href="#">Stuffers</a></li>
+          <li class="site-nav-item"><a href="#">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="tel:+38 044 111 11 11">+38 044 111 11 11</a></li>
-        <li><button type="button">online-appointment</button></li>
+      <ul class="contact-nav">
+        <li class="contact-nav-item">
+          <a class="phone-link" href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
+        </li>
+        <li class="contact-nav-item">
+          <button type="button" class="btn-main btn">make appointment</button>
+        </li>
       </ul>
     </header>
     <main>
@@ -34,16 +45,188 @@
         </ul>
         <p>A hair salon for men in Kyiv</p>
         <h1>BarberShop</h1>
-        <p>
-          We are experts in trendy men's haircuts. We work quickly, carefully
-          and tastefully.
-        </p>
+        <p>We are experts in trendy men's haircuts. We work quickly, carefully and tastefully.</p>
+      </section>
+      <section>
         <ul>
-          <li><button type="button">Back</button></li>
-          <li><button type="button">Forward</button></li>
+          <li>
+            <img src="./images/img1.jpg" alt="barber shaves beard" width="270" height="430" />
+          </li>
+          <li>
+            <img src="./images/img2.jpg" alt="barber cuts hair" width="270" height="430" />
+          </li>
+          <p>About us</p>
+          <h2>Best Barbershop in your city</h2>
+        </ul>
+        <p>
+          If you want to add more confidence to your image, you are definitely in the right place.
+        </p>
+        <p>
+          We are a team that is constantly developing its skills. And when you fall into the hands
+          of our master, then you can never be the same again. We are a team that is always on the
+          same wavelength with clients. Therefore, we are always ready to improve everyone who comes
+          to us!
+        </p>
+        <button type="button">make appointment</button>
+      </section>
+      <section>
+        <p>Spend time in the company of the best masters of their field</p>
+        <h2>Services and prices</h2>
+        <ul>
+          <li>
+            <p>Men's haircut</p>
+            <p>from 300 UAH</p>
+          </li>
+          <li>
+            <p>Beard trim</p>
+            <p>from 200 UAH</p>
+          </li>
+          <li>
+            <p>Mustache haircut</p>
+            <p>from 200 UAH</p>
+          </li>
+          <li>
+            <p>Shaving with straight razor</p>
+            <p>from 200 UAH</p>
+          </li>
+          <li>
+            <p>Haircut by an intern</p>
+            <p>from 50 UAH</p>
+          </li>
+          <li>
+            <p>Haircut under the nozzle</p>
+            <p>from 200 UAH</p>
+          </li>
+          <li>
+            <p>Children's haircut (up to 12 years old)</p>
+            <p>from 300 UAH</p>
+          </li>
+          <li>
+            <p>Gray hair camouflage</p>
+            <p>from 200 UAH</p>
+          </li>
+        </ul>
+        <button type="button">make appointment</button>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <span>600</span>
+            <p>Satisfied customers per day</p>
+          </li>
+          <li>
+            <span>50</span>
+            <p>Excellent Service Awards</p>
+          </li>
+          <li>
+            <span>20</span>
+            <p>The best masters of Kyiv</p>
+          </li>
+          <li>
+            <span>100</span>
+            <p>Gifts for regular customers</p>
+          </li>
+        </ul>
+        <p>Old traditional school</p>
+        <h2>Why do clients choose us?</h2>
+        <p>
+          Only good things are said about us. But it is better to see and feel 1 time than to read
+          10 times.
+        </p>
+      </section>
+      <section>
+        <p>For true connoisseurs of the atmosphere</p>
+        <h2>Our masters</h2>
+        <ul>
+          <li>
+            <img src="./images/img3.jpg" alt="employee of barbershop" width="370" height="346" />
+            <h3>John Smith</h3>
+            <p>Extreme Barber</p>
+          </li>
+          <li>
+            <img src="images/img4.jpg" alt="employee of barbershop" width="370" height="346" />
+            <h3>Michele Doe</h3>
+            <p>Extreme Barber</p>
+          </li>
+          <li>
+            <img src="images/img5.jpg" alt="employee of barbershop" width="370" height="346" />
+            <h3>Alan Black</h3>
+            <p>Extreme Barber</p>
+          </li>
         </ul>
       </section>
+      <section>
+        <p>In Latin, "barba" means "beard"</p>
+        <h2>Gallery</h2>
+
+        <ul>
+          <li>
+            <img
+              src="./images/img6.jpg"
+              alt="barber working with client"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/img7.jpg"
+              alt="barber working with client"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/img8.jpg"
+              alt="barber working with client"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/img9.jpg"
+              alt="barber working with client"
+              width="270"
+              height="360"
+            />
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Online-appointment</h2>
+      </section>
+      <section>
+        <h2>Contacts</h2>
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/DCnreoMm87AUCrCU9"
+                target="_blank"
+                rel="noopener noreferrer"
+                >st. Vasilkova, 7A Kyiv, 08132</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380441111111"> +38 044 111 11 11 </a>
+            </li>
+            <li>
+              <a href="mailto:barbershop@email.com"><p>barbershop@email.com</p></a>
+            </li>
+          </ul>
+          <p>Working hours</p>
+          <p>Daily from 9:00 to 22:00</p>
+        </address>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>&copy; Copyright</p>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#"></a>Youtube</li>
+      </ul>
+    </footer>
   </body>
 </html>
