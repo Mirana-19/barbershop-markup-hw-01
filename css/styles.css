@@ -1,5 +1,6 @@
 :root {
   --white: #ffffff;
+  --black: #303030;
   --secondary-white: #f7f7f7;
 
   --white-title: #ffffff;
@@ -14,9 +15,17 @@
   --accent-color: #ff6c00;
 }
 
+/* -----Common Styles----- */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  font-size: 18px;
+
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  background-color: darkslateblue;
 }
 
 a {
@@ -28,33 +37,9 @@ ul {
   list-style: none;
 }
 
-/* -----Header----- */
-
-.header {
-  background-color: #9da4bd;
-}
-
-.site-nav-item,
-.contact-nav-item {
-  color: var(--white-text);
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 1.33;
-}
-
-.site-nav-item,
-.phone-link {
-  letter-spacing: 0.1em;
-}
-
-.site-nav-item:hover,
-.site-nav-item:focus,
-.phone-link:hover,
-.phone-link:focus {
-  color: var(--accent-color);
-}
-
+/* -----Button----- */
 .btn {
+  font-family: inherit;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -65,8 +50,111 @@ ul {
 .btn-main {
   color: var(--white-text);
 }
+.btn-secondary {
+  color: var(--black);
+}
 
-.btn-main:hover,
-.btn-main:focus {
+.btn:hover,
+.btn:focus {
+  color: var(--white);
+}
+
+/* -----Text----- */
+
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.pre-title-gray {
+  color: var(--light-gray-text-opacity-60);
+}
+
+.pre-title-black {
+  color: var(--black-title);
+}
+
+.section-text {
+}
+.section-text-black {
+  color: var(--black-text);
+}
+
+.section-text-gray {
+  color: var(--light-gray-text);
+}
+
+.section-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.section-title-white {
+  color: var(--white-title);
+}
+
+.section-title-black {
+  color: var(--black-title);
+}
+
+/* -----Header----- */
+
+.site-nav-link,
+.contact-nav-item {
+  color: var(--white-text);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.site-nav-link,
+.phone-link {
+  letter-spacing: 0.1em;
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus,
+.phone-link:hover,
+.phone-link:focus {
   color: var(--accent-color);
 }
+
+/* -----Hero section----- */
+
+.socials-list-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: var(--black-title);
+}
+
+.socials-list-link:hover,
+.socials-list-link:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  font-family: 'Raleway', 'Sans Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--white-title);
+}
+
+/* -----About Us Section----- */
+
+.about-us-description {
+  font-size: 14px;
+  line-height: 1.86;
+}
+
+/* -----Prices Section----- */ ;
