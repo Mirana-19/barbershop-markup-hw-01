@@ -25,7 +25,7 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
 
-  background-color: darkslateblue;
+  background-color: darkslategrey;
 }
 
 a {
@@ -35,6 +35,16 @@ a {
 
 ul {
   list-style: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 /* -----Button----- */
@@ -76,6 +86,10 @@ ul {
   color: var(--black-title);
 }
 
+.pre-title-white {
+  color: var(--white-text);
+}
+
 .section-text {
 }
 .section-text-black {
@@ -102,6 +116,20 @@ ul {
   color: var(--black-title);
 }
 
+.socials-list-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: var(--black-title);
+}
+
+.socials-list-link:hover,
+.socials-list-link:focus {
+  color: var(--accent-color);
+}
+
 /* -----Header----- */
 
 .site-nav-link,
@@ -126,20 +154,6 @@ ul {
 
 /* -----Hero section----- */
 
-.socials-list-link {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.2em;
-
-  color: var(--black-title);
-}
-
-.socials-list-link:hover,
-.socials-list-link:focus {
-  color: var(--accent-color);
-}
-
 .hero-title {
   font-family: 'Raleway', 'Sans Serif';
   font-style: normal;
@@ -157,4 +171,49 @@ ul {
   line-height: 1.86;
 }
 
-/* -----Prices Section----- */ ;
+/* -----Prices Section----- */
+
+.reasons-numbers {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+  color: var(--black);
+}
+
+.reasons-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--black);
+}
+
+/* -----Employees Section----- */
+
+.employee {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.38;
+  color: var(--black);
+}
+
+.job-title {
+  font-size: 14px;
+  line-height: 1.36;
+  color: var(--accent-color);
+}
+
+/* -----Online Appointment Section----- */
+
+/* -----Contacts Section----- */
+.address {
+  font-style: normal;
+}
+
+/* -----Footer----- */
+.copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+}
